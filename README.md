@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Solutions - Aumento de Score e Limpeza de Nome</title>
+    <!-- Link para a biblioteca Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+        }
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 60px;  /* Aumentando o padding */
+            text-align: center;
+            border-bottom: 5px solid #007bff;
+        }
+        header h1 {
+            font-size: 42px;  /* Aumentando o tamanho da fonte */
+            margin: 0;
+        }
+        header p {
+            font-size: 22px;  /* Aumentando o tamanho da fonte */
+            margin-top: 12px;
+        }
+        section {
+            padding: 60px 30px;  /* Aumentando o padding */
+        }
+        .card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);  /* Aumentando o tamanho da sombra */
+            margin: 30px auto;
+            padding: 30px;  /* Aumentando o padding */
+            max-width: 1000px;
+            text-align: center;
+        }
+        .card h2 {
+            color: #0056b3;
+            font-size: 34px;  /* Aumentando o tamanho da fonte */
+        }
+        .btn, .whatsapp-btn {
+            display: inline-block;
+            background-color: #0056b3;
+            color: white;
+            padding: 18px 30px;  /* Aumentando o padding */
+            text-align: center;
+            border-radius: 10px;  /* Aumentando o border-radius */
+            text-decoration: none;
+            font-size: 20px;  /* Aumentando o tamanho da fonte */
+            font-weight: bold;
+            margin: 18px 0;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn:hover, .whatsapp-btn:hover {
+            background-color: #007bff;
+        }
+        .whatsapp-btn {
+            background-color: #25D366;
+        }
+        .whatsapp-btn:hover {
+            background-color: #20b557;
+        }
+        footer {
+            background-color: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 50px;
+            font-size: 18px;  /* Aumentando o tamanho da fonte */
+        }
+        footer p {
+            margin: 0;
+        }
+        #precos {
+            background-color: #f1f5f9;
+            padding: 30px;
+            border-radius: 12px;
+        }
+        #precos p {
+            font-size: 24px;  /* Aumentando o tamanho da fonte */
+            font-weight: bold;
+            color: #0056b3;
+        }
+        #imagem-score, #imagem-limpa-nome {
+            max-width: 80%;  /* Aumentando o tamanho da imagem */
+            height: auto;
+            margin: 30px auto;  /* Aumentando o margin */
+            display: block;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 32px;
+            }
+            header p {
+                font-size: 18px;
+            }
+            .card {
+                padding: 20px;
+            }
+            .card h2 {
+                font-size: 28px;
+            }
+            .btn, .whatsapp-btn {
+                font-size: 18px;
+                padding: 16px 24px;
+            }
+            #imagem-score, #imagem-limpa-nome {
+                max-width: 90%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 28px;
+            }
+            header p {
+                font-size: 16px;
+            }
+            .card h2 {
+                font-size: 22px;
+            }
+            .btn, .whatsapp-btn {
+                font-size: 16px;
+                padding: 14px 20px;
+            }
+            #imagem-score, #imagem-limpa-nome {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>FOCUS SOLUTIONS INTERMEDIAÇÃO DE NEGÓCIOS LTDA</h2>
+    </header>
+
+    <section>
+        <div class="card">
+            <p>Melhore seu score de crédito com a ajuda de especialistas. Oferecemos análise personalizada e estratégias comprovadas para aumentar sua pontuação e abrir novas portas para o seu futuro financeiro.</p>
+            <img src="imagem1.jpg" alt="Imagem de aumento de score" id="imagem-score">
+            <a href="https://wa.me/5511977859676?text=Olá,%20tenho%20interesse%20em%20aumentar%20meu%20score!" ></a>
+        </div>
+
+        <div class="card">
+            <h2>Serviço Excepcional</h2>
+            <p>Ao longo dos anos, aprendemos que um ótimo serviço começa e termina com <strong>profissionais experientes e amigáveis</strong>.</p>
+            <p>Acreditamos que nossa equipe é a melhor do setor e confiamos totalmente em cada pessoa que entrega nossos serviços.</p>
+
+            <h2>Sobre Nós</h2>
+            <p><strong>FOCUS SOLUTIONS INTERMEDIAÇÃO DE NEGÓCIOS LTDA</strong><br> conclui cada projeto <strong>dentro do prazo</strong>, com o mais alto nível de qualidade.</p>
+
+            <h2>Nossos Diferenciais</h2>
+            <ul>
+                <strong>Serviços personalizados</strong> para atender às suas necessidades.<br>
+                <strong>Preços competitivos</strong> que cabem no seu bolso.<br>
+                <strong>Satisfação garantida</strong>, com foco total no cliente.<br>
+            </ul>
+            <p>Estamos sempre nos esforçando para <strong>atender</strong> e <strong>superar</strong> as expectativas de nossos clientes.</p>
+
+            <h2>Entre em Contato</h2>
+            <p>Quer saber mais? Entre em contato conosco e descubra como podemos ajudar!</p>
+            <p><strong>Email:</strong> focussolutions2025@gmail.com<br><strong>Telefone:</strong> (11) 97785-9676</p>
+            <p>Fale diretamente com nossa equipe pelo WhatsApp para tirar dúvidas ou contratar nossos serviços.</p>
+            <a href="https://wa.me/5511977859676?text=Olá,%20tenho%20interesse%20nos%20serviços%20da%20Focus%20Solutions!" target="_blank" class="whatsapp-btn">
+                <i class="fab fa-whatsapp"></i> Entre em Contato pelo WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <div class="card">
+        <video id="imagem-score" width="800" height="600" controls>
+            <source src="Reportagem.mp4" type="video/mp4">
+            Seu navegador não suporta a reprodução de vídeo.
+        </video>
+    </div>
+
+    <div class="card">
+        <h2>Depoimentos</h2>
+        <img src="score1.jpg" alt="Imagem de aumento de score" id="imagem-score" style="width: 450px; height: 300px;">
+        <img src="score2.jpg" alt="Imagem de aumento de score" id="imagem-score" style="width: 450px; height: 300px;">
+        <img src="score3.jpg" alt="Imagem de aumento de score" id="imagem-score" style="width: 450px; height: 300px;">
+    </div>
+</body>
+</html>
